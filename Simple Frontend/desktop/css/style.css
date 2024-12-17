@@ -1,0 +1,108 @@
+
+html, body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+}
+.header{
+	border:soft 2px orange;
+  height:163px;
+  width:100%;
+  background-image:url(../images/bg.png);
+  display:flex;
+}
+.logo{
+	border:soft 2px red;
+	height:163px;
+	width:13%;
+	float:left;
+}
+.navbar-menu{
+	border:soft 2px yellow;
+	height:163px;
+	width:87%;
+}
+.navbar-menu li{
+	font-size: 15px;
+	padding-top:60px;
+	list-style: none;
+	text-align:center;
+	float:left;
+}
+.navbar-menu a {
+	font-size: 17px;
+	text-decoration: none;
+	color: black;
+	background-color:#D9D9D9;
+	font-weight: 500;
+	padding-left: 20px;
+	padding-right:20px;
+	padding-top:10px;
+	padding-bottom:10px;
+	margin-right:70px;
+	margin-left:70px;
+}
+.bill{
+	border:soft 1px black;
+	width:100%;
+	height:350px;
+	display:flex;
+}
+.text{
+	border:soft 1px blue;
+	width:58%;
+	height:350px;
+}
+.text h1{
+	padding-left:90px;
+	text-decoration: underline;
+	 letter-spacing: 5px;
+}
+.text p{
+	padding-left:90px;
+	font-size:18px;
+	font-weight:300;
+	letter-spacing:3px;
+	color:black;
+	font-style: normal;
+}
+.image{
+	border:soft 1px green;
+	width:42%;
+	height:350px;
+}
+.image img{
+   padding-top:25px;
+   padding-left:120px;
+}
+.edu{
+ border:soft 1px blue;
+ height:400px;
+ width:100%;
+}
+.edu img{
+	padding-top:20px;
+	float:right;
+	padding-right:100px;
+}
+.edu h1{
+	margin-top:0px;
+	padding-bottom:20px;
+	padding-left:90px;
+	text-decoration: underline;
+	letter-spacing: 5px;
+}
+.edu p{
+	padding-left:90px;
+	font-size:18px;
+	font-weight:300;
+	letter-spacing:3px;
+	color:black;
+	font-style: normal;
+}
+
+@media (max-width:1250px){
+.navbar-menu a {
+	margin-right:5px;
+	margin-left:30px;
+}
+
