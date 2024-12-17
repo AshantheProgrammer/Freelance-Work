@@ -1,0 +1,228 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #4423FF;
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #4423FF;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.logo img {
+    height: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 20px;
+    background-color: #4423FF;
+    height: auto;
+}
+
+.text-content {
+    max-width: 500px;
+}
+
+.hero h1 {
+    font-size: 36px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.explore-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #ffcc00;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.tesla-image {
+    width: 300px;
+    height: auto;
+    margin-left: 20px;
+}
+
+.container {
+    background-color: white;
+    color: black;
+}
+
+.container1 {
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+header p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.intro {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.download-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #ffcc00;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+
+
+.icons-container {
+    display: flex;
+    align-items: center;
+}
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.content1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.text-container-stamp {
+    flex: 1;
+    margin-right: 20px;
+}
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.image-container-stamp {
+    flex-shrink: 0;
+}
+
+.patent-image {
+    width: 150px;
+    height: auto;
+}
+
+.content2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.text-container-img {
+    flex: 1;
+    color: black;
+    margin-right: 20px;
+}
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.image-container-img {
+    flex-shrink: 0;
+}
+
+.image-container2 {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: white;
+}
+
+.div-image {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #4423FF;
+    color: white;
+}
+
+.social-media {
+    margin-bottom: 10px;
+}
+
+.social-media a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.social-media a:hover {
+    text-decoration: underline;
+}

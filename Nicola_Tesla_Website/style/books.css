@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    /* Light background */
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #4423FF;
+    /* Header background */
+    color: white;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.logo img {
+    height: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.download-section {
+    margin-bottom: 40px;
+}
+
+.download-section h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.book {
+    margin: 20px 0;
+}
+
+.book img {
+    width: 200px;
+    /* Adjust book cover size */
+    height: auto;
+}
+
+.download-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4423FF;
+    /* Button color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.contact-section {
+    margin-top: 40px;
+}
+
+.contact-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #ffcc00;
+    /* Button color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #4423FF;
+    /* Footer background */
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
