@@ -1,0 +1,45 @@
+/* Inherit styles from auth.css for consistency */
+@import url('auth.css');
+
+/* Additional styles specific to the admin dashboard, if needed */
+
+/* Dashboard Stats */
+.dashboard-stats {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+.stat {
+    flex: 1;
+    background: rgba(255, 255, 255, 0.95);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.stat h3 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.stat p {
+    font-size: 24px;
+    color: #ff6600;
+}
+
+/* Dashboard Links */
+.dashboard-links {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+.dashboard-links a {
+    flex: 1;
+    text-align: center;
+}

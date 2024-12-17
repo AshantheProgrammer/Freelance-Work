@@ -1,0 +1,215 @@
+/* Authentication Section */
+body {
+    margin: 0;
+}
+
+.auth-section {
+    height: 100vh;
+    background: url('../images/auth-bg.jpg') no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+/* Circular Gradient Backgrounds */
+.auth-section::before {
+    content: "";
+    position: absolute;
+    top: -150px;
+    left: -150px;
+    width: 400px;
+    height: 400px;
+    background: radial-gradient(circle, rgba(255, 165, 0, 0.3) 0%, rgba(255, 165, 0, 0) 70%);
+    z-index: 0;
+}
+
+.auth-section::after {
+    content: "";
+    position: absolute;
+    bottom: -150px;
+    right: -150px;
+    width: 500px;
+    height: 500px;
+    background: radial-gradient(circle, rgba(144, 238, 144, 0.3) 0%, rgba(144, 238, 144, 0) 70%);
+    z-index: 0;
+}
+
+.auth-section .gradient-1 {
+    position: absolute;
+    top: 200px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 300px;
+    height: 300px;
+    background: radial-gradient(circle, rgba(70, 130, 180, 0.3) 0%, rgba(70, 130, 180, 0) 70%);
+    z-index: 0;
+}
+
+.auth-section .gradient-2 {
+    position: absolute;
+    bottom: 50px;
+    left: 20%;
+    width: 250px;
+    height: 250px;
+    background: radial-gradient(circle, rgba(255, 182, 193, 0.3) 0%, rgba(255, 182, 193, 0) 70%);
+    z-index: 0;
+}
+
+.auth-section .gradient-3 {
+    position: absolute;
+    top: 50px;
+    right: 20%;
+    width: 350px;
+    height: 350px;
+    background: radial-gradient(circle, rgba(173, 216, 230, 0.3) 0%, rgba(173, 216, 230, 0) 70%);
+    z-index: 0;
+}
+
+.auth-section .gradient-4 {
+    position: absolute;
+    top: 300px;
+    left: 10%;
+    width: 200px;
+    height: 200px;
+    background: radial-gradient(circle, rgba(255, 99, 71, 0.3) 0%, rgba(255, 99, 71, 0) 70%);
+    z-index: 0;
+}
+
+.auth-section .gradient-5 {
+    position: absolute;
+    bottom: 200px;
+    right: 15%;
+    width: 250px;
+    height: 250px;
+    background: radial-gradient(circle, rgba(173, 255, 47, 0.3) 0%, rgba(173, 255, 47, 0) 70%);
+    z-index: 0;
+}
+
+.auth-section .gradient-6 {
+    position: absolute;
+    top: 450px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 300px;
+    height: 300px;
+    background: radial-gradient(circle, rgba(221, 160, 221, 0.3) 0%, rgba(221, 160, 221, 0) 70%);
+    z-index: 0;
+}
+
+.auth-container {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+}
+
+.auth-container h1 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.auth-container h2 {
+    font-size: 28px;
+    color: #ff6600;
+    margin-bottom: 20px;
+}
+
+.auth-card {
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.auth-card p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+/* Input Fields Styling */
+.auth-card .form-group {
+    margin-bottom: 20px;
+    text-align: left; /* Align labels and inputs to the left */
+}
+
+.auth-card label {
+    font-size: 16px;
+    color: #333;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.auth-card input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+.auth-card input:focus {
+    outline: none;
+    border-color: #ff6600;
+}
+
+/* Button Styling */
+.auth-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    gap: 10px; /* Add this line to create space between the buttons */
+}
+
+.auth-btn {
+    background: #ff6600;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    width: calc(33.33% - 10px); /* Adjust the width to account for the gap */
+}
+
+.auth-btn:hover {
+    background: #e65c00;
+}
+
+.auth-buttons a:nth-child(3) { /* Targets the third button, which is Admin Login */
+    background-color: #333; /* Darker color to distinguish Admin Login */
+}
+
+.auth-buttons a:nth-child(3):hover {
+    background-color: #555; /* Slightly lighter on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .auth-container {
+        padding: 10px;
+    }
+
+    .auth-card {
+        padding: 20px;
+    }
+
+    .auth-buttons {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .auth-btn {
+        width: 100%;
+    }
+}
